@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         listView = findViewById(R.id.listViewSensor);
-
         sensorManager = (SensorManager) getSystemService(getApplicationContext().SENSOR_SERVICE);
         List<Sensor> sensores = sensorManager.getSensorList(Sensor.TYPE_ALL);
 
